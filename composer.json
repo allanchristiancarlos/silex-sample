@@ -1,0 +1,22 @@
+{
+    "name": "allan.carlos/silex",
+    "authors": [
+        {
+            "name": "Allan Christian Carlos",
+            "email": "allan.carlos@nowcom.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~2.0",
+        "doctrine/dbal": "~2.2",
+        "doctrine/orm": "v2.5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "controllers/",
+            "App\\Transformers\\": "transformers/",
+            "App\\Contracts\\": "contracts/",
+            "App\\Entities\\": "entities/"
+        }
+    }
+}
